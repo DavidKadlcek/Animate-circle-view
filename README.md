@@ -34,10 +34,10 @@ I really recommend use this in `ViewController` to hide/show labels to smooth an
 ```swift
 override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
     super.viewWillTransition(to: size, with: coordinator)
-    coordinator.animate(alongsideTransition: { (_) in
-        self.graphView.showHideViews(show: false)
-    }) { (_) in
-        self.graphView.showHideViews(show: true)
+    coordinator.animate(alongsideTransition: { [weak self] _ in
+        self?.graphView.showHideViews(show: false)
+    }) { [weak self] _ in
+        self?.graphView.showHideViews(show: true)
     }
 }
 ```
