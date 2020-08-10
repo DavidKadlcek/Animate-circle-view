@@ -42,6 +42,13 @@ override func viewWillTransition(to size: CGSize, with coordinator: UIViewContro
 }
 ```
 
+You need to set `maxValue` and `animationDuration`. Then you can easily add value by method.
+```swift
+graphView.maxValue = 1600
+graphView.animationDuration = 2.5
+graphView.addValue(value: 200)
+```
+
 ## Author
 
 DavidKadlcek, da.developer605@gmail.com
