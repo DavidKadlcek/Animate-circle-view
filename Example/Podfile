@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AnimateCircleView_Example' do
+  pod 'AnimateCircleView', :path => '../'
+
+  target 'AnimateCircleView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
