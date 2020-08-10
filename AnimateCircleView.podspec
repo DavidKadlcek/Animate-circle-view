@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.screenshots      = 'https://i.imgur.com/QMZ6ILv.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'DavidKadlcek' => 'da.developer605@gmail.com' }
-  s.source           = { :git => 'https://github.com/DavidKadlcek/AnimateCircleView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/DavidKadlcek/AnimateCircleView.git', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
