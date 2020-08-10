@@ -10,7 +10,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Screenshots
-![screenshot of circle view](https://imgur.com/a/7NnWfxg "Circle View")
+![screenshot of circle view](https://imgur.com/a/7NnWfxg)
 
 ## Requirements
 
