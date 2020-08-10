@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AnimateCircleView: 23afe69bc4f143f37a187b549e3eafefe90fdf26
+  AnimateCircleView: d6448db9190774a9b0b9abcb999ab5f1c3262cfe
 
 PODFILE CHECKSUM: 40be358b1b763499234664dda0a534a021980215
 

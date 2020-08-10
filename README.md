@@ -9,9 +9,6 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Screenshots
-![screenshot of circle view](https://i.imgur.com/QMZ6ILv.png)
-
 ## Requirements
 
 iOS 12.0 and above.

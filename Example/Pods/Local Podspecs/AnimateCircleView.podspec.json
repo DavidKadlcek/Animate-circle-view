@@ -1,9 +1,10 @@
 {
   "name": "AnimateCircleView",
   "version": "0.1.0",
-  "summary": "A short description of AnimateCircleView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/DavidKadlcek/AnimateCircleView",
+  "summary": "Animated circle view",
+  "description": "Pod is useful for graph's data.",
+  "homepage": "https://github.com/DavidKadlcek/AnimateCircleView.git",
+  "screenshots": "https://imgur.com/a/7NnWfxg",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -16,7 +17,9 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
-  "source_files": "AnimateCircleView/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "AnimateCircleView/Classes/**/*",
+  "swift_version": "5.0"
 }

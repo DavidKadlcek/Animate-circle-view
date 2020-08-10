@@ -11,11 +11,33 @@ import AnimateCircleView
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var graphView: GraphView!
+    let graphView: GraphView = {
+        let view = GraphView()
+        view.translatesAutoresizingMaskIntoConstraints = false
+        view.maxValue = 1600
+        view.animationDuration = 2
+        view.circleView.strokeStaticColor = UIColor.red.cgColor
+        return view
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        view.backgroundColor = .white
+        
+        graphView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleTap)))
+        
+        view.addSubview(graphView)
+        NSLayoutConstraint.activate([
+            graphView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            graphView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            graphView.widthAnchor.constraint(equalTo: view.widthAnchor, constant: -30),
+            graphView.heightAnchor.constraint(equalTo: view.heightAnchor, constant: -30)
+        ])
+    }
+    
+    @objc
+    func handleTap() {
+        graphView.addValue(value: 200)
     }
 
     override func didReceiveMemoryWarning() {

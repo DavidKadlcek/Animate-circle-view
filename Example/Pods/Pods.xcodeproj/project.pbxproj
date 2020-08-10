@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05AA608F16DB3C2845B1F3BEF458F275 /* AnimateCircleView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F955AF597F8DCB530AD56F635B53BE /* AnimateCircleView-dummy.m */; };
 		0AFFB0D7D35E1B6DD6BF92C85A1124C3 /* Pods-AnimateCircleView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D759E67A353F1AF6644F61167981F6A1 /* Pods-AnimateCircleView_Tests-dummy.m */; };
 		1CF75E97B6A521D6CB7B2A32D15AF9FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		2501A79390BB12892D89A04A93430DAA /* Pods-AnimateCircleView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2711919F15AD225BEA720B680340413 /* Pods-AnimateCircleView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		31B736E224E1A04A001A0EBF /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B736DF24E1A04A001A0EBF /* GraphView.swift */; };
-		31B736E324E1A04B001A0EBF /* AnimateLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B736E024E1A04A001A0EBF /* AnimateLabel.swift */; };
-		31B736E424E1A04B001A0EBF /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B736E124E1A04A001A0EBF /* CircleView.swift */; };
+		25844156E12AF860A685C10C1E04EEE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		5BCAFF12B2E57162886D94BC17286F0B /* Pods-AnimateCircleView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 782362BBAA390A1381C3EE5370BF8F1C /* Pods-AnimateCircleView_Example-dummy.m */; };
 		697BB2DA0BD7DC5DA245370140A07B9B /* Pods-AnimateCircleView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A80E0561E1096DD3148CAA98F63A2094 /* Pods-AnimateCircleView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		761F4389D99D76F2B556E234E5C8FF5A /* AnimateCircleView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F73CF4E62D59EBFB71FA4DF0EA8499C6 /* AnimateCircleView-dummy.m */; };
-		7A18B938E06B675F1ABFB4541BD7202B /* AnimateCircleView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 074583AE3525C655C4F2048B02E32E8F /* AnimateCircleView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A99A03D1DA214B77386D65002C2B61BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7650C0BA7ACB7A34D83BF75EAD9048EF /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413439CF0221AF761E8F63D64AAC7B5A /* CircleView.swift */; };
+		88E835EA4ADBC459AE960C1A18706C88 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87548F677A869C30443E8EED721282F9 /* GraphView.swift */; };
+		A5098150D545BFD2CD92578A26ABA393 /* AnimateCircleView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70EBA86FA61745DAE7736009966A3EE6 /* AnimateCircleView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EFA7C391140A2ACBED10AC919B317B7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F75F62DA08FF900323FC748D609835E4 /* AnimateLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456000613D17B44D367950BE8F189AC /* AnimateLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,39 +39,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04BF1BACD643297E05B96D9869B0ABDD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		074583AE3525C655C4F2048B02E32E8F /* AnimateCircleView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimateCircleView-umbrella.h"; sourceTree = "<group>"; };
+		0456000613D17B44D367950BE8F189AC /* AnimateLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimateLabel.swift; path = AnimateCircleView/Classes/AnimateLabel.swift; sourceTree = "<group>"; };
 		0D4F43272E1A7B814837182E7C9C152A /* Pods-AnimateCircleView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AnimateCircleView_Tests.modulemap"; sourceTree = "<group>"; };
+		1672637A53CBDD1A36EA378175EE19BB /* AnimateCircleView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AnimateCircleView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		17E95B3C0E9F9927C76EC626087A7FB0 /* Pods-AnimateCircleView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnimateCircleView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1BBA0D9ACB826429ED1F139ED66B6787 /* Pods-AnimateCircleView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimateCircleView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		31B736DF24E1A04A001A0EBF /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
-		31B736E024E1A04A001A0EBF /* AnimateLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimateLabel.swift; sourceTree = "<group>"; };
-		31B736E124E1A04A001A0EBF /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3B5EDEEA8241FAF705D6852F073CF301 /* Pods-AnimateCircleView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimateCircleView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3CFA88F85BA569020DFB27E62CB0B72E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		413439CF0221AF761E8F63D64AAC7B5A /* CircleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleView.swift; path = AnimateCircleView/Classes/CircleView.swift; sourceTree = "<group>"; };
 		430B53315A350B167458F6C2278AE7F7 /* Pods-AnimateCircleView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimateCircleView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		46E5BFDBD48EF89AA93977CA9101F0B3 /* AnimateCircleView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimateCircleView-prefix.pch"; sourceTree = "<group>"; };
+		54F955AF597F8DCB530AD56F635B53BE /* AnimateCircleView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnimateCircleView-dummy.m"; sourceTree = "<group>"; };
 		6181640CB5C8100FAA5BD0A0E370BD7C /* Pods-AnimateCircleView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimateCircleView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6C7523261CA7EA9F2BEE37299ED83D0E /* Pods_AnimateCircleView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimateCircleView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		74358EB7A9D14073B8F4DF584647032F /* AnimateCircleView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AnimateCircleView-Info.plist"; sourceTree = "<group>"; };
+		6A76C30A14CB1306EA6153FC1B176C4F /* AnimateCircleView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AnimateCircleView-Info.plist"; sourceTree = "<group>"; };
+		6C7523261CA7EA9F2BEE37299ED83D0E /* Pods_AnimateCircleView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AnimateCircleView_Example.framework; path = "Pods-AnimateCircleView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70EBA86FA61745DAE7736009966A3EE6 /* AnimateCircleView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimateCircleView-umbrella.h"; sourceTree = "<group>"; };
+		7695C96F2BA3A66519803EB9B24324F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		782362BBAA390A1381C3EE5370BF8F1C /* Pods-AnimateCircleView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnimateCircleView_Example-dummy.m"; sourceTree = "<group>"; };
 		79AFA2FDF047AC0C2A42E49D5FB96854 /* Pods-AnimateCircleView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimateCircleView_Example-Info.plist"; sourceTree = "<group>"; };
-		8EC6DD634316D3C2A53249AAD827BF01 /* Pods_AnimateCircleView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimateCircleView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7E9C6D9225E3B7255DD905796AF74748 /* AnimateCircleView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AnimateCircleView.modulemap; sourceTree = "<group>"; };
+		87548F677A869C30443E8EED721282F9 /* GraphView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphView.swift; path = AnimateCircleView/Classes/GraphView.swift; sourceTree = "<group>"; };
+		8EC6DD634316D3C2A53249AAD827BF01 /* Pods_AnimateCircleView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AnimateCircleView_Tests.framework; path = "Pods-AnimateCircleView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9310DAF2F7AFD77385C614FF88819F33 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		99D336BBD6B52DDC058C7CDF3458F483 /* AnimateCircleView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimateCircleView.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F2127DB774AF5160AA0F766CC85571B /* Pods-AnimateCircleView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AnimateCircleView_Example.modulemap"; sourceTree = "<group>"; };
 		A80E0561E1096DD3148CAA98F63A2094 /* Pods-AnimateCircleView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnimateCircleView_Example-umbrella.h"; sourceTree = "<group>"; };
 		A8506035389E76A5C9EE8F2FCF06E126 /* Pods-AnimateCircleView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimateCircleView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BE7979E01668CAA0AD82CC9F82559CD5 /* AnimateCircleView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimateCircleView.xcconfig; sourceTree = "<group>"; };
-		BF0D17E250FC58B2996A8D0799ED1AD0 /* AnimateCircleView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimateCircleView-prefix.pch"; sourceTree = "<group>"; };
 		C4D8CA715A2123D20FC912D581B88BA9 /* Pods-AnimateCircleView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnimateCircleView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C736496F977833F81709691BC7801F64 /* AnimateCircleView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AnimateCircleView.modulemap; sourceTree = "<group>"; };
-		C96FACB648279028667DDAE45A60AC80 /* AnimateCircleView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AnimateCircleView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D759E67A353F1AF6644F61167981F6A1 /* Pods-AnimateCircleView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnimateCircleView_Tests-dummy.m"; sourceTree = "<group>"; };
 		D96DF574A2E477AF88F3398BD8489622 /* Pods-AnimateCircleView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnimateCircleView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DA081D6BC3F77D42FC74FEBA45ECB029 /* AnimateCircleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnimateCircleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA081D6BC3F77D42FC74FEBA45ECB029 /* AnimateCircleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AnimateCircleView.framework; path = AnimateCircleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2711919F15AD225BEA720B680340413 /* Pods-AnimateCircleView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnimateCircleView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		EDCFB08CF4D7F2DF3FD871FC50701DB3 /* Pods-AnimateCircleView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimateCircleView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F73CF4E62D59EBFB71FA4DF0EA8499C6 /* AnimateCircleView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnimateCircleView-dummy.m"; sourceTree = "<group>"; };
 		FDD652520F03BF28D239B542171836F2 /* Pods-AnimateCircleView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimateCircleView_Tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,11 +84,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4592ACB38EF5793FF9F12394273841C6 /* Frameworks */ = {
+		66ABA16CBDB71A832096F0C6804E6250 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A99A03D1DA214B77386D65002C2B61BB /* Foundation.framework in Frameworks */,
+				25844156E12AF860A685C10C1E04EEE4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,14 +103,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		34CB4864346BE9866EE847A7A54B77EA /* Pod */ = {
+		02072C8F479079D255354A22126A4D18 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C96FACB648279028667DDAE45A60AC80 /* AnimateCircleView.podspec */,
-				04BF1BACD643297E05B96D9869B0ABDD /* LICENSE */,
-				3CFA88F85BA569020DFB27E62CB0B72E /* README.md */,
+				EB07B3E9EA54606DC94A0FA2E02A2E82 /* AnimateCircleView */,
 			);
-			name = Pod;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		027483FEFF2D37C6A57C907A65C76065 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E9C6D9225E3B7255DD905796AF74748 /* AnimateCircleView.modulemap */,
+				99D336BBD6B52DDC058C7CDF3458F483 /* AnimateCircleView.xcconfig */,
+				54F955AF597F8DCB530AD56F635B53BE /* AnimateCircleView-dummy.m */,
+				6A76C30A14CB1306EA6153FC1B176C4F /* AnimateCircleView-Info.plist */,
+				46E5BFDBD48EF89AA93977CA9101F0B3 /* AnimateCircleView-prefix.pch */,
+				70EBA86FA61745DAE7736009966A3EE6 /* AnimateCircleView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AnimateCircleView";
 			sourceTree = "<group>";
 		};
 		41114B622CB7833955275AC062CE30D9 /* Products */ = {
@@ -121,41 +133,6 @@
 				8EC6DD634316D3C2A53249AAD827BF01 /* Pods_AnimateCircleView_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		471F4B993576774F8B15C0CEF02F7CD1 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7AEA3A080A56B14F72F4FBD094A4E2AF /* AnimateCircleView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		7AEA3A080A56B14F72F4FBD094A4E2AF /* AnimateCircleView */ = {
-			isa = PBXGroup;
-			children = (
-				31B736E024E1A04A001A0EBF /* AnimateLabel.swift */,
-				31B736E124E1A04A001A0EBF /* CircleView.swift */,
-				31B736DF24E1A04A001A0EBF /* GraphView.swift */,
-				34CB4864346BE9866EE847A7A54B77EA /* Pod */,
-				9B7152250FA282C26E97B5977824EAF6 /* Support Files */,
-			);
-			name = AnimateCircleView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		9B7152250FA282C26E97B5977824EAF6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C736496F977833F81709691BC7801F64 /* AnimateCircleView.modulemap */,
-				BE7979E01668CAA0AD82CC9F82559CD5 /* AnimateCircleView.xcconfig */,
-				F73CF4E62D59EBFB71FA4DF0EA8499C6 /* AnimateCircleView-dummy.m */,
-				74358EB7A9D14073B8F4DF584647032F /* AnimateCircleView-Info.plist */,
-				BF0D17E250FC58B2996A8D0799ED1AD0 /* AnimateCircleView-prefix.pch */,
-				074583AE3525C655C4F2048B02E32E8F /* AnimateCircleView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AnimateCircleView";
 			sourceTree = "<group>";
 		};
 		A85019EFF5B5305E131C489FCE43B3B2 /* Pods-AnimateCircleView_Tests */ = {
@@ -191,6 +168,16 @@
 			path = "Target Support Files/Pods-AnimateCircleView_Example";
 			sourceTree = "<group>";
 		};
+		BAA84ABF24A8846BFD368C976753F0A1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1672637A53CBDD1A36EA378175EE19BB /* AnimateCircleView.podspec */,
+				7695C96F2BA3A66519803EB9B24324F6 /* LICENSE */,
+				9310DAF2F7AFD77385C614FF88819F33 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,7 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				471F4B993576774F8B15C0CEF02F7CD1 /* Development Pods */,
+				02072C8F479079D255354A22126A4D18 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				41114B622CB7833955275AC062CE30D9 /* Products */,
 				DE13F71577AB995549D46924784B6C65 /* Targets Support Files */,
@@ -227,6 +214,19 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		EB07B3E9EA54606DC94A0FA2E02A2E82 /* AnimateCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				0456000613D17B44D367950BE8F189AC /* AnimateLabel.swift */,
+				413439CF0221AF761E8F63D64AAC7B5A /* CircleView.swift */,
+				87548F677A869C30443E8EED721282F9 /* GraphView.swift */,
+				BAA84ABF24A8846BFD368C976753F0A1 /* Pod */,
+				027483FEFF2D37C6A57C907A65C76065 /* Support Files */,
+			);
+			name = AnimateCircleView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -246,11 +246,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2CDCDEA5C52CB3D24A208D72D05F466 /* Headers */ = {
+		9B917DAF20749A7A9EAA67E5E2AE39FF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A18B938E06B675F1ABFB4541BD7202B /* AnimateCircleView-umbrella.h in Headers */,
+				A5098150D545BFD2CD92578A26ABA393 /* AnimateCircleView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,12 +297,12 @@
 		};
 		C47EA3B0ABCEA81EDD1A57113A34B8E6 /* AnimateCircleView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FD7699C6A93CDAF4708D51AF75ED08C /* Build configuration list for PBXNativeTarget "AnimateCircleView" */;
+			buildConfigurationList = 6C5FFE48F12270B2D5F3F68B3BE0D283 /* Build configuration list for PBXNativeTarget "AnimateCircleView" */;
 			buildPhases = (
-				C2CDCDEA5C52CB3D24A208D72D05F466 /* Headers */,
-				ACAEEF18D8BEF9E470F5066B8335E0AE /* Sources */,
-				4592ACB38EF5793FF9F12394273841C6 /* Frameworks */,
-				F18307714606EEA5CE7E4B80F45667A8 /* Resources */,
+				9B917DAF20749A7A9EAA67E5E2AE39FF /* Headers */,
+				24AAE203712A6AE4DF3C65D3B733D7F7 /* Sources */,
+				66ABA16CBDB71A832096F0C6804E6250 /* Frameworks */,
+				746ECD921FB6F2F26B61E17BF28DCFAE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -350,14 +350,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AFB1784F0BB8E15F422BCB3594FCD53D /* Resources */ = {
+		746ECD921FB6F2F26B61E17BF28DCFAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F18307714606EEA5CE7E4B80F45667A8 /* Resources */ = {
+		AFB1784F0BB8E15F422BCB3594FCD53D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -367,6 +367,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		24AAE203712A6AE4DF3C65D3B733D7F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AA608F16DB3C2845B1F3BEF458F275 /* AnimateCircleView-dummy.m in Sources */,
+				F75F62DA08FF900323FC748D609835E4 /* AnimateLabel.swift in Sources */,
+				7650C0BA7ACB7A34D83BF75EAD9048EF /* CircleView.swift in Sources */,
+				88E835EA4ADBC459AE960C1A18706C88 /* GraphView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2D0C38D2E311D2BC52FDBB9061C15DAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -380,17 +391,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AFFB0D7D35E1B6DD6BF92C85A1124C3 /* Pods-AnimateCircleView_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACAEEF18D8BEF9E470F5066B8335E0AE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				31B736E324E1A04B001A0EBF /* AnimateLabel.swift in Sources */,
-				31B736E424E1A04B001A0EBF /* CircleView.swift in Sources */,
-				761F4389D99D76F2B556E234E5C8FF5A /* AnimateCircleView-dummy.m in Sources */,
-				31B736E224E1A04A001A0EBF /* GraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,170 +412,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		077ED7E46787B6FD98EDC3BD77536408 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE7979E01668CAA0AD82CC9F82559CD5 /* AnimateCircleView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AnimateCircleView/AnimateCircleView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AnimateCircleView/AnimateCircleView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AnimateCircleView/AnimateCircleView.modulemap";
-				PRODUCT_MODULE_NAME = AnimateCircleView;
-				PRODUCT_NAME = AnimateCircleView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		127776EA4B02CD73D89EB76E85925194 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 430B53315A350B167458F6C2278AE7F7 /* Pods-AnimateCircleView_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AnimateCircleView_Tests/Pods-AnimateCircleView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AnimateCircleView_Tests/Pods-AnimateCircleView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		234A8DAB63649CFF11AB6E38BDA9F1AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDCFB08CF4D7F2DF3FD871FC50701DB3 /* Pods-AnimateCircleView_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AnimateCircleView_Example/Pods-AnimateCircleView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AnimateCircleView_Example/Pods-AnimateCircleView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		53718A163883D4CE8DBC7E652B565ECA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE7979E01668CAA0AD82CC9F82559CD5 /* AnimateCircleView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AnimateCircleView/AnimateCircleView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AnimateCircleView/AnimateCircleView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AnimateCircleView/AnimateCircleView.modulemap";
-				PRODUCT_MODULE_NAME = AnimateCircleView;
-				PRODUCT_NAME = AnimateCircleView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		63028CE29D9AD25FD0283641796FBAE2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8506035389E76A5C9EE8F2FCF06E126 /* Pods-AnimateCircleView_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AnimateCircleView_Example/Pods-AnimateCircleView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AnimateCircleView_Example/Pods-AnimateCircleView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -623,18 +460,228 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		571AB76B879E5B3F1CFB00397A86ACCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99D336BBD6B52DDC058C7CDF3458F483 /* AnimateCircleView.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AnimateCircleView/AnimateCircleView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnimateCircleView/AnimateCircleView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AnimateCircleView/AnimateCircleView.modulemap";
+				PRODUCT_MODULE_NAME = AnimateCircleView;
+				PRODUCT_NAME = AnimateCircleView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		650F2F40C5DCD3970395DA9EFC0ABE7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99D336BBD6B52DDC058C7CDF3458F483 /* AnimateCircleView.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AnimateCircleView/AnimateCircleView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnimateCircleView/AnimateCircleView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AnimateCircleView/AnimateCircleView.modulemap";
+				PRODUCT_MODULE_NAME = AnimateCircleView;
+				PRODUCT_NAME = AnimateCircleView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90CC3F669502FC955E75BEA4BEFF363B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDCFB08CF4D7F2DF3FD871FC50701DB3 /* Pods-AnimateCircleView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AnimateCircleView_Example/Pods-AnimateCircleView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnimateCircleView_Example/Pods-AnimateCircleView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB6F3904302A6B41EADC2444CBC131BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B5EDEEA8241FAF705D6852F073CF301 /* Pods-AnimateCircleView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AnimateCircleView_Tests/Pods-AnimateCircleView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnimateCircleView_Tests/Pods-AnimateCircleView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BFF0A9D060AFB9485AD69D18496F2573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8506035389E76A5C9EE8F2FCF06E126 /* Pods-AnimateCircleView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AnimateCircleView_Example/Pods-AnimateCircleView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnimateCircleView_Example/Pods-AnimateCircleView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C733480328B087BCE9DD3BADB5AACD6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 430B53315A350B167458F6C2278AE7F7 /* Pods-AnimateCircleView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AnimateCircleView_Tests/Pods-AnimateCircleView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnimateCircleView_Tests/Pods-AnimateCircleView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -685,7 +732,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -698,57 +745,14 @@
 			};
 			name = Debug;
 		};
-		C2327634067A951BD4F00A86772F2104 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B5EDEEA8241FAF705D6852F073CF301 /* Pods-AnimateCircleView_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AnimateCircleView_Tests/Pods-AnimateCircleView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AnimateCircleView_Tests/Pods-AnimateCircleView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		0D4671C397ADAB39166EF481EB9512DC /* Build configuration list for PBXNativeTarget "Pods-AnimateCircleView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63028CE29D9AD25FD0283641796FBAE2 /* Debug */,
-				234A8DAB63649CFF11AB6E38BDA9F1AF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2FD7699C6A93CDAF4708D51AF75ED08C /* Build configuration list for PBXNativeTarget "AnimateCircleView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				077ED7E46787B6FD98EDC3BD77536408 /* Debug */,
-				53718A163883D4CE8DBC7E652B565ECA /* Release */,
+				BFF0A9D060AFB9485AD69D18496F2573 /* Debug */,
+				90CC3F669502FC955E75BEA4BEFF363B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -756,8 +760,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C5FFE48F12270B2D5F3F68B3BE0D283 /* Build configuration list for PBXNativeTarget "AnimateCircleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650F2F40C5DCD3970395DA9EFC0ABE7E /* Debug */,
+				571AB76B879E5B3F1CFB00397A86ACCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -765,8 +778,8 @@
 		7114172AD3A4833F70CB1B5AD68C1BF5 /* Build configuration list for PBXNativeTarget "Pods-AnimateCircleView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				127776EA4B02CD73D89EB76E85925194 /* Debug */,
-				C2327634067A951BD4F00A86772F2104 /* Release */,
+				C733480328B087BCE9DD3BADB5AACD6F /* Debug */,
+				BB6F3904302A6B41EADC2444CBC131BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
