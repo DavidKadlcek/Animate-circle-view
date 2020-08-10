@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = "Pod is useful for graph's data."
 
-  s.homepage         = 'https://github.com/DavidKadlcek/AnimateCircleView.git'
+  s.homepage         = 'https://github.com/DavidKadlcek/Animate-circle-view'
   s.screenshots      = 'https://i.imgur.com/QMZ6ILv.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'DavidKadlcek' => 'da.developer605@gmail.com' }
-  s.source           = { :git => 'https://github.com/DavidKadlcek/AnimateCircleView.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/DavidKadlcek/Animate-circle-view.git', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'

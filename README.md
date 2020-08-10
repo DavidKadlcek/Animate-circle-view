@@ -25,6 +25,23 @@ it, simply add the following line to your Podfile:
 pod 'AnimateCircleView'
 ```
 
+## Usage
+
+The graph with circle and label is named `GraphView`. In `GraphView` there is an access to `AnimateLabel` and `CircleView` . 
+In `CircleView` there are two layers  - `staticLayer` and `shapeLayer`. Only `shapeLayer` is animating.
+
+I really recommend use this in `ViewController` to hide/show labels to smooth animation.
+```swift
+override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+    super.viewWillTransition(to: size, with: coordinator)
+    coordinator.animate(alongsideTransition: { (_) in
+        self.graphView.showHideViews(show: false)
+    }) { (_) in
+        self.graphView.showHideViews(show: true)
+    }
+}
+```
+
 ## Author
 
 DavidKadlcek, da.developer605@gmail.com
