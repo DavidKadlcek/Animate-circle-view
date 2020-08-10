@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import AnimateCircleView
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var graphView: GraphView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

@@ -1,0 +1,6 @@
+framework module AnimateCircleView {
+  umbrella header "AnimateCircleView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "AnimateCircleView",
+  "version": "0.1.0",
+  "summary": "A short description of AnimateCircleView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/DavidKadlcek/AnimateCircleView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "DavidKadlcek": "da.developer605@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/DavidKadlcek/AnimateCircleView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AnimateCircleView/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - AnimateCircleView (0.1.0)
+
+DEPENDENCIES:
+  - AnimateCircleView (from `../`)
+
+EXTERNAL SOURCES:
+  AnimateCircleView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AnimateCircleView: 23afe69bc4f143f37a187b549e3eafefe90fdf26
+
+PODFILE CHECKSUM: 40be358b1b763499234664dda0a534a021980215
+
+COCOAPODS: 1.8.4
